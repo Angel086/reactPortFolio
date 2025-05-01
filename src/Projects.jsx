@@ -13,7 +13,7 @@ export default function Projects(){
           </h3>
           <img
             id="pic"
-            src="./images/ExtReadIt.png"
+            src="./assets/ExtReadIt.png"
             alt="Image of a google extension"
           />
           <p className="projsen">
@@ -34,7 +34,7 @@ export default function Projects(){
           </h3>
           <img
             id="pic"
-            src="./images/under-construction-warning-sign.jpg"
+            src="./assets/under-construction-warning-sign.jpg"
             alt="Image of construction"
           />
 
@@ -59,7 +59,7 @@ export default function Projects(){
           </h3>
           <img
             id="pic"
-            src="./images/portf.png"
+            src="./assets/portfolio.png"
             alt="Image of personal portfolio"
           />
           <p className="projsen">
@@ -79,7 +79,7 @@ export default function Projects(){
           </h3>
           <img
             id="pic"
-            src="./images/under-construction-warning-sign.jpg"
+            src="./assets/under-construction-warning-sign.jpg"
             alt="Image of construction"
           />
           <p className="projsen">

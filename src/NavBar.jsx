@@ -36,7 +36,7 @@ export default function NavBar() {
                     }}
                   >
                     <img
-                      src="./imgsvg/mail.svg"
+                      src="./assets/mail.svg"
                       style={{ width: "1.2rem", height: "1.2rem" }}
                       alt="mail"
                     />
@@ -60,7 +60,7 @@ export default function NavBar() {
                     }}
                   >
                     <img
-                      src="./imgsvg/linkedin.svg"
+                      src="./assets/linkedin.svg"
                       style={{ width: "1.2rem", height: "1.2rem" }}
                       alt="linkedin"
                     />
@@ -84,7 +84,7 @@ export default function NavBar() {
                     }}
                   >
                     <img
-                      src="./imgsvg/github.svg"
+                      src="./assets/github.svg"
                       style={{ width: "1.2rem", height: "1.2rem" }}
                       alt="github"
                     />
