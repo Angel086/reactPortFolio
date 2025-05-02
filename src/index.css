@@ -1,1 +1,29 @@
+.email{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eForm{
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(13, 94, 148);
+    width: 40rem;
+    height: 30rem;
+    padding: 10px;
+    color:black;
+    gap: 10px; 
+}
+#eTittle, #email, #message, #eButton{
+    color:black;
+    width: 100%;
+    border-radius: 10px;
+}
 
+#message{
+    height: 20rem;
+}

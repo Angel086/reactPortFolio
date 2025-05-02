@@ -1,21 +1,30 @@
-import { useState } from 'react'
-import './App.css'
-import NavBar from './NavBar'
-import Summary from './Summary'
-import Experiance from './Experiance'
-import Projects from './Projects'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NavBar from './NavBar';
+import Summary from './Summary';
+import Experiance from './Experiance';
+import Projects from './Projects';
+import { ContactForm } from './ContactForm';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-   <div>
-    <NavBar/>
-    <Summary/>
-    <Experiance/>
-    <Projects/>
-   </div>
-  )
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Summary />
+              <Projects />
+              <Experiance />
+            </>
+          }
+        />
+        <Route path="/contact" element={<ContactForm />} />
+      </Routes>
+      <footer style={{ marginTop: "2rem" }}>All rights reserved 2025</footer>
+    </Router>
+  );
 }
 
-export default App
+export default App;
