@@ -74,7 +74,7 @@ export default function NavBar() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href={github}
+                  href="https://github.com/Angel086"
                   style={{ color: "black" }}
                 >
                   <span
