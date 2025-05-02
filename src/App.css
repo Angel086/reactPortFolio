@@ -167,10 +167,7 @@ h2 {
   gap: 1fr;
 }
 @media (max-width: 890px) {
-  p{
-    font-weight: bolder;
-    font-size: xx-large;
-  }
+  
   .mycontainer {
     display: grid;
     grid-template-columns: repeat(auto, auto);
