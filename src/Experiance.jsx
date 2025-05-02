@@ -1,27 +1,24 @@
 import React from "react";
 
-export default function Experiance(){
-    return(<section id="Experience">
-      <div className="myExper" >
+export default function Experience() {
+  return (
+    <section id="Experience">
+      <div className="myExper">
         <h2 className="ExperienceSec">Experience</h2>
+
         <div className="mycard xp1">
           <h3 id="XPtitle">Assistant Programmer</h3>
-          <h4 id="subTxt">Califronia State University Chico</h4>
+          <h4 id="subTxt">California State University, Chico</h4>
           <p id="xpSen">
-            Developed a password generator in C++. Later used to make tutorial
-            for fellow alumnia, covering various concepts.
+            Built a secure password generator in C++ used for internal tools. Created tutorials to help fellow students understand key concepts.
           </p>
         </div>
 
         <div className="mycard xp2">
-          <h3>Mentee At CrowdStrike</h3>
-          <h4 id="subTxt">CrowdStrike and NCL</h4>
+          <h3>Mentee at CrowdStrike</h3>
+          <h4 id="subTxt">CrowdStrike + NCL</h4>
           <p id="xpSen">
-            Was a mentee with CrowdStrike, given an image of a compromised
-            machine. Tasked, to examine artifacts, what was modified, Tech used,
-            paths taken, and give a report of the findings. Once a month, would
-            have a meeting with cyber experts, ask any questions, either in
-            regard to the task, hints or what it's like to work in the fild.
+            Participated in a digital forensics mentorship. Investigated a compromised virtual machine, identified attack vectors, and compiled a detailed report. Monthly sessions included Q&A with cybersecurity experts.
           </p>
         </div>
 
@@ -29,12 +26,10 @@ export default function Experiance(){
           <h3>Soccer Coach</h3>
           <h4 id="subTxt">Kidz Love Soccer</h4>
           <p id="xpSen">
-            Managed and trained a local youth groups in various locations,
-            teaching them team work, rules of the game and nurtuer their skills.
-            As well, communicate with parents in regard to any changes occuring
-            the week or possible cancelations.
+            Coached youth teams across multiple locations. Focused on skill-building, teamwork, and communication. Maintained parent correspondence and managed weekly scheduling.
           </p>
         </div>
       </div>
-    </section>);
-};
+    </section>
+  );
+}
