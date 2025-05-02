@@ -19,7 +19,7 @@
     gap: 10px; 
 }
 #eTittle, #email, #message, #eButton{
-    color:black;
+    color:rgb(28, 26, 26);
     width: 100%;
     border-radius: 10px;
 }

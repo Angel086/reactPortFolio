@@ -10,7 +10,7 @@ export function ContactForm() {
   return (
     <div className='email'>
     <form className="eForm"onSubmit={handleSubmit} >
-      <label id="eTitle" htmlFor="email" style={{color:"white"}}>
+      <label id="eTitle" htmlFor="email" style={{color:"smokewhite"}}>
         Postal Service
       </label>
       <input 
