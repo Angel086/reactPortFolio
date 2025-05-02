@@ -1,6 +1,5 @@
 body {
-  background-color: #1e1e2f;
-  height: 100vh;
+  background-image: linear-gradient(#1e1e2f,#36367a,#51518a);
 }
 section {
   margin-bottom: 2rem;
@@ -35,6 +34,7 @@ body * {
   width: 100%;
   gap: 1rem;
   padding: 1rem;
+  border-radius: 10px;
   text-align: start;
   transition: box-shadow 0.3s ease, tranform 0.3s ease;
 }
@@ -65,7 +65,7 @@ body * {
 .p3>h3{
   color:rgb(172, 190, 56);
 }.p4>h3{
-  color:rgb(169, 25, 25);
+  color:rgb(15, 172, 149);
 }
 .projsen {
   display: flex;
@@ -97,6 +97,7 @@ body * {
 
 .mycontainer {
   gap: 1.5rem;
+  padding: .75rem;
 }
 
 .Tech {
@@ -107,6 +108,7 @@ body * {
 }
 .myExper {
   display: grid;
+  padding: .75rem;
   gap: 10px;
   grid-template-columns: repeat(auto, auto);
   grid-template-rows: repeat(auto, auto);
@@ -172,7 +174,7 @@ h2 {
   gap: 1fr;
 }
 
-@media (max-width: 998px) {
+@media (max-width: 998px),( min-width: 600px ) {
    p{
       font-weight: bolder;
       font-size: larger;
