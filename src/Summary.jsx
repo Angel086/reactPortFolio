@@ -11,8 +11,14 @@ export default function Summary() {
         <div id="mysum">
           <h2>Summary</h2>
           <p>
-            FrontEnd engineer, with Experience in cyber, scripting and much more. Graduated from CSU Chico.
+            FullStack engineer, with Experience in cyber, scripting and much more. Enjoyer of simple things.
+            <br/>Graduated from CSU Chico
           </p>
+          <br/>
+          <p style={{fontWeight:"bolder"
+          }}>Located at California, USA</p>
+          <br/>
+          <p>Open for work</p>
           <a style={{display:"flex", width:"60px",fontWeight:"bolder"}} href={resume}>Resume</a>
         </div>
       </section>
