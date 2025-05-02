@@ -22,8 +22,8 @@ function App() {
         />
         <Route path="/contact" element={<ContactForm />} />
       </Routes>
-      <footer style={{ marginTop: "2rem" }}>All rights reserved 2025</footer>
-    </Router>
+      <footer style={{ margin:"0" }}>All rights reserved, By Angel Marquez</footer>
+    </Router>   
   );
 }
 

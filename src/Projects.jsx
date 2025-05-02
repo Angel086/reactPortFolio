@@ -5,7 +5,7 @@ import underDev from "./assets/under-construction-warning-sign.jpg"
 import './App.css'
 export default function Projects(){
     return(<>    <section id="proj-sec">
-      <h2>Projects:</h2>
+      <h2>Projects</h2>
       <div className="mycontainer">
         <div className="project p1">
           <h3
