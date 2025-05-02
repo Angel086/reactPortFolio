@@ -1,4 +1,7 @@
 import React from "react";
+import extReadIt from './assets/ExtReadIt.png';
+import portfolio from "./assets/portfolio.png";
+import underDev from "./assets/under-construction-warning-sign.jpg"
 import './App.css'
 export default function Projects(){
     return(<>    <section id="proj-sec">
@@ -13,7 +16,7 @@ export default function Projects(){
           </h3>
           <img
             id="pic"
-            src="./assets/ExtReadIt.png"
+            src={extReadIt}
             alt="Image of a google extension"
           />
           <p className="projsen">
@@ -34,7 +37,7 @@ export default function Projects(){
           </h3>
           <img
             id="pic"
-            src="./assets/under-construction-warning-sign.jpg"
+            src={underDev}
             alt="Image of construction"
           />
 
@@ -59,7 +62,7 @@ export default function Projects(){
           </h3>
           <img
             id="pic"
-            src="./assets/portfolio.png"
+            src={portfolio}
             alt="Image of personal portfolio"
           />
           <p className="projsen">
@@ -79,7 +82,7 @@ export default function Projects(){
           </h3>
           <img
             id="pic"
-            src="./assets/under-construction-warning-sign.jpg"
+            src={underDev}
             alt="Image of construction"
           />
           <p className="projsen">

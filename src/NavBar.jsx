@@ -1,5 +1,7 @@
 import React from "react";
-
+import mail from "./assets/mail.svg";
+import linkedin from "./assets/linkedin.svg";
+import github from "./assets/github.svg";
 export default function NavBar() {
   return (
     <>
@@ -36,7 +38,7 @@ export default function NavBar() {
                     }}
                   >
                     <img
-                      src="./assets/mail.svg"
+                    src={mail}
                       style={{ width: "1.2rem", height: "1.2rem" }}
                       alt="mail"
                     />
@@ -60,7 +62,7 @@ export default function NavBar() {
                     }}
                   >
                     <img
-                      src="./assets/linkedin.svg"
+                      src={linkedin}
                       style={{ width: "1.2rem", height: "1.2rem" }}
                       alt="linkedin"
                     />
@@ -72,7 +74,7 @@ export default function NavBar() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="https://github.com/Angel086"
+                  href={github}
                   style={{ color: "black" }}
                 >
                   <span
@@ -84,7 +86,7 @@ export default function NavBar() {
                     }}
                   >
                     <img
-                      src="./assets/github.svg"
+                      src={github}
                       style={{ width: "1.2rem", height: "1.2rem" }}
                       alt="github"
                     />
